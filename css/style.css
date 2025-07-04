@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.font-tittle {
+    font-family: "Knewave", system-ui;
+    font-size: 5rem;
+}
+
+.banner {
+    /* ao inés de height: 70vh; */
+    height: calc(100vw * 0.5626);
+    min-height: 40rem;
+    background: url(../img/banner/dragon-ball-z-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.navbar{
+    display:flex;
+    background-color: #0D0D0D;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    padding:0.5rem;
+}
+
+.navbar li{
+    padding: 0.5rem;
+}
+
+.banner div{
+    margin: auto;
+}
+
+.banner h1{
+    padding: 0rem 0rem 0rem 12rem;
+    margin: 0;
+    text-shadow: 3px 3px 15px #0d0d0d,
+                -3px -3px 15px #0d0d0d;
+    color: #ffffff;
+}
+
+.banner p{
+    padding: 0rem 20rem 0rem 12rem;
+    text-shadow: 0.5px 0.5px 3px white,
+                -0.5px -0.5px 3px white;
+
+}
