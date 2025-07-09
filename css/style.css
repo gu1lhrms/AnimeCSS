@@ -8,7 +8,7 @@ body {
 }
 
 .font-tittle {
-    font-family: "bebas neue", system-ui;
+    font-family: "bebas neue", sans-serif;
     font-size: 5rem;
 }
 
@@ -20,6 +20,10 @@ body {
     background-size: cover;
     background-position: center;
     display: flex;
+}
+
+.banner div p{
+    font-size: 1.1rem;
 }
 
 .navbar{
@@ -52,9 +56,9 @@ body {
 
 .banner h1{
     padding: 0rem 0rem 0rem 12rem;
-    margin: 0;
-    text-shadow: 3px 3px 10px #0d0d0d,
-                -3px -3px 10px #0d0d0d;
+    margin: 8rem 0 0 0;
+    text-shadow: 3px 3px 10px #0d0d0df1,
+                -3px -3px 10px #0d0d0df1;
     color: #ffffff;
 }
 
@@ -92,3 +96,31 @@ body {
     }
 }
 .navbar ul li{ margin: auto;}
+
+.card-4{
+    max-width: 96rem;
+    margin: 4rem auto;
+    background-color: #F33212;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card-4 article{
+    border: 1px solid white;
+    /* flex-grow: 1; */
+    width: calc(25% - 7.5px);
+}
+
+
+/* .card-4 article:first-child {
+    flex-grow: 2;
+} */
+
+#info div article h2{
+    font-family: "bebas neue", sans-serif;
+    font-size: 1.9rem;
+}
+#info div article p{
+    color:#414141;
+}
